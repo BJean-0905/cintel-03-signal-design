@@ -31,7 +31,7 @@ signals are created from raw measurements.
 
 ## Data
 
-The example pipeline reads system metrics from: `data/system_metrics_case.csv`.
+The example pipeline reads system metrics from: `data/system_metrics_BJean-0905`.
 
 Each row represents a system observation with raw measurements
 such as requests, errors, and total latency.
@@ -95,7 +95,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/cintel-03-signal-design
+git clone https://github.com/BJean-0905/cintel-03-signal-design
 
 cd cintel-03-signal-design
 code .
