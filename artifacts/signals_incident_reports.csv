@@ -1,0 +1,11 @@
+Incident_number,days_diff,level,status,compliant_submission
+1,0,Medium,Unresolved,Compliant
+2,0,High,Resolved,Compliant
+3,1,Medium,Unresolved,Compliant
+4,5,Low,Resolved,Non Compliant
+5,9,High,Unresolved,Non Compliant
+6,2,Low,Resolved,Non Compliant
+7,1,Medium,Resolved,Compliant
+8,1,Medium,Unresolved,Compliant
+9,1,Medium,Resolved,Compliant
+10,1,High,Resolved,Compliant

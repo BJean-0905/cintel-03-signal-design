@@ -1,0 +1,11 @@
+Incident_number,days_diff,level,status
+1,0,Medium,Unresolved
+2,0,High,Resolved
+3,1,Medium,Unresolved
+4,5,Low,Resolved
+5,9,High,Unresolved
+6,2,Low,Resolved
+7,1,Medium,Resolved
+8,1,Medium,Unresolved
+9,1,Medium,Resolved
+10,1,High,Resolved
