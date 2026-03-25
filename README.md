@@ -31,7 +31,7 @@ signals are created from raw measurements.
 
 ## Data
 
-The example pipeline reads system metrics from: `data/system_metrics_BJean-0905`.
+The example pipeline reads system metrics from: `data/system_metrics_bjean`.
 
 Each row represents a system observation with raw measurements
 such as requests, errors, and total latency.
