@@ -1,7 +1,7 @@
 """
 signal_design_case.py - Project script (example).
 
-Author: Denise Case
+Author: Denise Case, Britany Kline
 Date: 2026-03
 
 System Metrics Data
@@ -29,12 +29,12 @@ Questions to Consider
 
 Paths (relative to repo root)
 
-    INPUT FILE: data/system_metrics_case.csv
-    OUTPUT FILE: artifacts/signals_case.csv
+    INPUT FILE: data/system_metrics_bjean.csv
+    OUTPUT FILE: artifacts/signals_bjean.csv
 
 Terminal command to run this file from the root project folder
 
-    uv run python -m cintel.signal_design_case
+    uv run python -m cintel.signal_design_bjean
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -64,8 +64,8 @@ ARTIFACTS_DIR: Final[Path] = ROOT_DIR / "artifacts"
 
 # === DECLARE GLOBAL CONSTANTS FOR FILE PATHS ===
 
-DATA_FILE: Final[Path] = DATA_DIR / "system_metrics_case.csv"
-OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "signals_case.csv"
+DATA_FILE: Final[Path] = DATA_DIR / "system_metrics_bjean.csv"
+OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "signals_bjean.csv"
 
 
 # === DEFINE THE MAIN FUNCTION ===
