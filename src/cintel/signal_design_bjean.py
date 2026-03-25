@@ -134,7 +134,9 @@ def main() -> None:
     # This creates an expression for:
     #     errors / requests
     # It is only a calculation recipe at this point.
-    calculated_error_rate: pl.Expr = pl.col("errors") / pl.col("requests")
+    calculated_error_rate: pl.Expr = (
+        pl.col("errors") / pl.col("requests") * 100
+    ).ceil()  # Multiply by 100 to get percentage, and round to 0 decimal places.
 
     # ----------------------------------------------------
     # STEP 2.3: DEFINE THE ERROR RATE SIGNAL RECIPE
